@@ -12,10 +12,10 @@ This agent monitors Uniswap V3 Pool contracts for large flash swaps over a speci
 
 <!-- -->
 - AE-UNISWAPV3-LARGE-FLASH-SWAP
- - Fired on any Flash event from a Uniswap V3 Pool contract with USD value exceeding the threshold specified in agent-config.json
- - Severity is always set to "info"
- - Type is always set to "info"
- - Metadata field contains:
+  - Fired on any Flash event from a Uniswap V3 Pool contract with USD value exceeding the threshold specified in agent-config.json
+  - Severity is always set to "info"
+  - Type is always set to "info"
+  - Metadata field contains:
     - Pool contract address
     - Amount of token 0 involved in swap
     - Amount of token 1 involved in swap
