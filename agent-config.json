@@ -1,0 +1,8 @@
+{
+  "EVEREST_ID": "0xa2e07f422b5d7cbbfca764e53b251484ecf945fa",
+  "PROTOCOL_NAME": "Uniswap V3",
+  "PROTOCOL_ABBREVIATION": "UNISWAPV3",
+  "largeFlashSwap": {
+    "thresholdUSD": 100000
+  }
+}
