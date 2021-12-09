@@ -13,8 +13,8 @@ WORKDIR /app
 # COPY --from=builder /app/dist ./src
 # else if using unobfuscated code:
 COPY ./src ./src
-COPY agent-config.json
-COPY contract-addresses.json
+COPY agent-config.json ./
+COPY contract-addresses.json ./
 COPY ./abi ./abi
 COPY package*.json ./
 RUN npm ci --production
