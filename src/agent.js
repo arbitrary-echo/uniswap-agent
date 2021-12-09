@@ -166,9 +166,9 @@ function provideHandleTransaction(data) {
       flashSwapResults.forEach((result) => {
         if (result.value0USDBN.plus(result.value1USDBN).gt(flashSwapThresholdUSDBN)) {
           const finding = Finding.fromObject({
-            name: 'Uniswap V3 Large Flash Swap',
+            name: 'Forta Workshop 2: Uniswap V3 Large Flash Swap',
             description: `Large Flash Swap from pool ${result.address}`,
-            alertId: 'AE-UNISWAPV3-LARGE-FLASH-SWAP',
+            alertId: 'AE-FORTA-WORKSHOP2-UNISWAPV3-LARGE-FLASH-SWAP',
             severity: FindingSeverity.Info,
             type: FindingType.Info,
             protocol: 'UniswapV3',

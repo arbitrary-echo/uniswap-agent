@@ -1,8 +1,8 @@
-# Forta Uniswap V3 Large Flash Swap Agent
+# Forta Workshop 2: Uniswap V3 Large Flash Swap Agent
 
 ## Description
 
-This agent monitors Uniswap V3 Pool contracts for large flash swaps over a specified threshold (default 100K USD).
+This Forta Workshop agent monitors Uniswap V3 Pool contracts for large flash swaps over a specified threshold (default 100K USD).
 
 ## Supported Chains
 
@@ -11,7 +11,7 @@ This agent monitors Uniswap V3 Pool contracts for large flash swaps over a speci
 ## Alerts
 
 <!-- -->
-- AE-UNISWAPV3-LARGE-FLASH-SWAP
+- AE-FORTA-WORKSHOP2-UNISWAPV3-LARGE-FLASH-SWAP
   - Fired on any Flash event from a Uniswap V3 Pool contract with USD value exceeding the threshold specified in agent-config.json
   - Severity is always set to "info"
   - Type is always set to "info"
